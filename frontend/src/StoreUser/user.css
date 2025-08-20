@@ -1,0 +1,21 @@
+.store-details {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #4f46e5;
+  color: white;
+}

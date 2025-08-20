@@ -1,0 +1,49 @@
+.store-details-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: #e53935;
+  color: white;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #c62828;
+}
+
+.stores-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.stores-table th, .stores-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.stores-table th {
+  background-color: #f4f4f4;
+}
+
+.loading, .error {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
